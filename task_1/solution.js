@@ -32,7 +32,7 @@ function addInCartCountChange(value) {
     let oldValue = value;
     let newValue;
     newValue = oldValue;
-    newValue = newValue + 1;
+    newValue = oldValue + 1;
     // создайте переменную newValue
     // присвойте ей значение oldValue
     // увеличьте значение newValue на 1
